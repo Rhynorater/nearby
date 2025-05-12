@@ -26,7 +26,7 @@
 # e.g.
 #  ./build.sh gLinux dist DEBUG=1
 
-if [ "${1}" == "help" ] ; then
+if [ "${1}" = "help" ] ; then
   echo "Usage:"
   echo "    ./build.sh <target> [dist] [args]"
   echo ""
